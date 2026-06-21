@@ -1,0 +1,9 @@
+export { get_homeProps } from "./get_homeProps.js";
+export { get_heroProps } from "./get_heroProps.js";
+export { get_introProps } from "./get_introProps.js";
+export { get_universeProps } from "./get_universeProps.js";
+export { get_mapProps } from "./get_mapProps.js";
+export { get_statsProps } from "./get_statsProps.js";
+export { get_timelineProps } from "./get_timelineProps.js";
+export { get_doorsProps } from "./get_doorsProps.js";
+export { get_testimonialsProps } from "./get_testimonialsProps.js";

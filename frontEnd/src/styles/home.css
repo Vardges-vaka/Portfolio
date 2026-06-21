@@ -91,7 +91,12 @@
   flex-wrap: wrap;
   justify-content: center;
   column-gap: 0.32em;
-  background: linear-gradient(100deg, var(--c-tech) 0%, var(--vp-text) 48% 52%, var(--c-bar) 100%);
+  background: linear-gradient(
+    100deg,
+    var(--c-tech) 0%,
+    var(--vp-text) 48% 52%,
+    var(--c-bar) 100%
+  );
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -135,7 +140,10 @@
   background: color-mix(in srgb, var(--vp-bg) 68%, transparent);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
-  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
   height: 100%;
 }
 .vp-door--tech {
@@ -240,8 +248,16 @@
   border-radius: 26px;
   border: 1px solid var(--vp-line);
   background:
-    radial-gradient(420px circle at 20% 15%, color-mix(in srgb, var(--c-tech) 14%, transparent), transparent 55%),
-    radial-gradient(420px circle at 85% 90%, color-mix(in srgb, var(--c-bar) 14%, transparent), transparent 55%),
+    radial-gradient(
+      420px circle at 20% 15%,
+      color-mix(in srgb, var(--c-tech) 14%, transparent),
+      transparent 55%
+    ),
+    radial-gradient(
+      420px circle at 85% 90%,
+      color-mix(in srgb, var(--c-bar) 14%, transparent),
+      transparent 55%
+    ),
     var(--vp-bg2);
   display: flex;
   flex-direction: column;
@@ -289,7 +305,11 @@
   inset: 0;
   z-index: 2;
   pointer-events: none;
-  background: linear-gradient(to top, color-mix(in srgb, #05060a 88%, transparent) 0%, transparent 38%);
+  background: linear-gradient(
+    to top,
+    color-mix(in srgb, #05060a 88%, transparent) 0%,
+    transparent 38%
+  );
 }
 .vp-monogram__caption {
   font-family: var(--vpf-mono);
@@ -366,7 +386,12 @@
   inset-inline-start: -16px;
   width: 3px;
   border-radius: 3px;
-  background: linear-gradient(to bottom, var(--c-bar), color-mix(in srgb, var(--c-tech), var(--c-bar)) 55%, var(--c-tech));
+  background: linear-gradient(
+    to bottom,
+    var(--c-bar),
+    color-mix(in srgb, var(--c-tech), var(--c-bar)) 55%,
+    var(--c-tech)
+  );
   opacity: 0.5;
 }
 .vp-recipe__layer {
@@ -377,16 +402,25 @@
   border-radius: 14px;
   overflow: hidden;
   background: color-mix(in srgb, var(--vp-bg2) 90%, transparent);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
 }
 .vp-recipe__layer:hover {
   transform: translateX(5px);
   border-color: color-mix(in srgb, var(--lc) 50%, transparent);
   box-shadow: 0 14px 36px color-mix(in srgb, var(--lc) 15%, transparent);
 }
-.vp-recipe__layer--bar { --lc: var(--c-bar); }
-.vp-recipe__layer--tech { --lc: var(--c-tech); }
-.vp-recipe__layer--hybrid { --lc: color-mix(in srgb, var(--c-tech), var(--c-bar)); }
+.vp-recipe__layer--bar {
+  --lc: var(--c-bar);
+}
+.vp-recipe__layer--tech {
+  --lc: var(--c-tech);
+}
+.vp-recipe__layer--hybrid {
+  --lc: color-mix(in srgb, var(--c-tech), var(--c-bar));
+}
 /* the craft-coloured "ingredient" tab — the layers stack into a drink */
 .vp-recipe__tab {
   position: relative;
@@ -396,19 +430,32 @@
   gap: 3px;
   padding: 1.05rem;
   overflow: hidden;
-  background: linear-gradient(135deg, color-mix(in srgb, var(--lc) 34%, var(--vp-bg2)), color-mix(in srgb, var(--lc) 12%, var(--vp-bg2)));
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--lc) 34%, var(--vp-bg2)),
+    color-mix(in srgb, var(--lc) 12%, var(--vp-bg2))
+  );
   border-inline-end: 1px solid color-mix(in srgb, var(--lc) 38%, transparent);
 }
 .vp-recipe__flow {
   position: absolute;
   inset: -40% 0;
-  background: linear-gradient(180deg, transparent, color-mix(in srgb, var(--lc) 32%, transparent), transparent);
+  background: linear-gradient(
+    180deg,
+    transparent,
+    color-mix(in srgb, var(--lc) 32%, transparent),
+    transparent
+  );
   animation: vp-recipe-flow 5.5s linear infinite;
   pointer-events: none;
 }
 @keyframes vp-recipe-flow {
-  0% { transform: translateY(-60%); }
-  100% { transform: translateY(60%); }
+  0% {
+    transform: translateY(-60%);
+  }
+  100% {
+    transform: translateY(60%);
+  }
 }
 .vp-recipe__num {
   position: relative;
@@ -425,7 +472,10 @@
   font-size: 1.05rem;
   color: var(--vp-text);
 }
-.vp-recipe__body { padding: 1.05rem 1.4rem; min-width: 0; }
+.vp-recipe__body {
+  padding: 1.05rem 1.4rem;
+  min-width: 0;
+}
 .vp-recipe__title {
   font-family: var(--vpf-display);
   font-weight: 700;
@@ -438,14 +488,26 @@
   font-weight: 600;
   margin: 0.3rem 0 0.55rem;
 }
-.vp-recipe__text { font-size: 0.92rem; color: var(--vp-text2); line-height: 1.5; }
+.vp-recipe__text {
+  font-size: 0.92rem;
+  color: var(--vp-text2);
+  line-height: 1.5;
+}
 @media (prefers-reduced-motion: reduce) {
-  .vp-recipe__flow { animation: none; }
+  .vp-recipe__flow {
+    animation: none;
+  }
 }
 @media (max-width: 560px) {
-  .vp-recipe__layer { grid-template-columns: 86px 1fr; }
-  .vp-recipe__body { padding: 0.9rem 1.1rem; }
-  .vp-recipe__rail { display: none; }
+  .vp-recipe__layer {
+    grid-template-columns: 86px 1fr;
+  }
+  .vp-recipe__body {
+    padding: 0.9rem 1.1rem;
+  }
+  .vp-recipe__rail {
+    display: none;
+  }
 }
 
 /* ---------- bottom doors ---------- */
@@ -466,26 +528,41 @@
   border: 1px solid var(--vp-line);
   overflow: hidden;
   background: var(--vp-bg2);
-  transition: transform 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
   height: 100%;
 }
 .vp-bigdoor--tech {
   --door-acc: var(--c-tech);
-  background-image: repeating-linear-gradient(
+  background-image:
+    repeating-linear-gradient(
       135deg,
       transparent 0 17px,
       color-mix(in srgb, var(--c-tech) 7%, transparent) 17px 18px
     ),
-    radial-gradient(500px circle at 90% -10%, color-mix(in srgb, var(--c-tech) 14%, transparent), transparent 60%);
+    radial-gradient(
+      500px circle at 90% -10%,
+      color-mix(in srgb, var(--c-tech) 14%, transparent),
+      transparent 60%
+    );
 }
 .vp-bigdoor--bar {
   --door-acc: var(--c-bar);
-  background-image: radial-gradient(
+  background-image:
+    radial-gradient(
       color-mix(in srgb, var(--c-bar) 16%, transparent) 1px,
       transparent 1.6px
     ),
-    radial-gradient(500px circle at 10% 110%, color-mix(in srgb, var(--c-bar) 14%, transparent), transparent 60%);
-  background-size: 20px 20px, auto;
+    radial-gradient(
+      500px circle at 10% 110%,
+      color-mix(in srgb, var(--c-bar) 14%, transparent),
+      transparent 60%
+    );
+  background-size:
+    20px 20px,
+    auto;
 }
 .vp-bigdoor:hover {
   transform: translateY(-7px);
@@ -563,12 +640,29 @@
   border-radius: 24px;
   overflow: hidden;
   background:
-    radial-gradient(680px circle at 22% 18%, color-mix(in srgb, var(--c-tech) 8%, transparent), transparent 60%),
-    radial-gradient(620px circle at 82% 88%, color-mix(in srgb, var(--c-bar) 7%, transparent), transparent 60%),
+    radial-gradient(
+      680px circle at 22% 18%,
+      color-mix(in srgb, var(--c-tech) 8%, transparent),
+      transparent 60%
+    ),
+    radial-gradient(
+      620px circle at 82% 88%,
+      color-mix(in srgb, var(--c-bar) 7%, transparent),
+      transparent 60%
+    ),
     var(--vp-bg2);
 }
-.vp-mindbg { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
-.vp-mindbg__canvas { display: block; width: 100%; height: 100%; }
+.vp-mindbg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.vp-mindbg__canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 .vp-lifemap__canvas {
   position: absolute;
   top: 0;
@@ -583,15 +677,33 @@
   overflow: visible;
   filter: drop-shadow(0 0 5px rgba(130, 150, 210, 0.3));
 }
-.vp-lifemap__link { stroke-width: 2; }
-.vp-lifemap__link--tech { stroke: color-mix(in srgb, var(--c-tech) 78%, transparent); }
-.vp-lifemap__link--bar { stroke: color-mix(in srgb, var(--c-bar) 78%, transparent); }
-.vp-lifemap__link--journey { stroke: color-mix(in srgb, #5ec8c8 72%, transparent); }
-.vp-lifemap__link--lang { stroke: color-mix(in srgb, #9b8cff 72%, transparent); }
-.vp-lifemap__link--ethos { stroke: color-mix(in srgb, #f0789e 68%, transparent); }
-.vp-lifemap__link--root { stroke: color-mix(in srgb, var(--vp-text) 38%, transparent); }
+.vp-lifemap__link {
+  stroke-width: 2;
+}
+.vp-lifemap__link--tech {
+  stroke: color-mix(in srgb, var(--c-tech) 78%, transparent);
+}
+.vp-lifemap__link--bar {
+  stroke: color-mix(in srgb, var(--c-bar) 78%, transparent);
+}
+.vp-lifemap__link--journey {
+  stroke: color-mix(in srgb, #5ec8c8 72%, transparent);
+}
+.vp-lifemap__link--lang {
+  stroke: color-mix(in srgb, #9b8cff 72%, transparent);
+}
+.vp-lifemap__link--ethos {
+  stroke: color-mix(in srgb, #f0789e 68%, transparent);
+}
+.vp-lifemap__link--root {
+  stroke: color-mix(in srgb, var(--vp-text) 38%, transparent);
+}
 
-.vp-lifemap__node-anchor { position: absolute; top: 0; inset-inline-start: 0; }
+.vp-lifemap__node-anchor {
+  position: absolute;
+  top: 0;
+  inset-inline-start: 0;
+}
 .vp-lifemap__node {
   --nc: var(--vp-line);
   position: relative;
@@ -610,12 +722,23 @@
   font-size: 0.84rem;
   font-weight: 600;
   white-space: nowrap;
-  box-shadow: 0 6px 18px color-mix(in srgb, var(--vp-shadow) 30%, transparent), 0 0 22px color-mix(in srgb, var(--nc) 14%, transparent);
-  transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease, background-color 0.25s ease;
+  box-shadow:
+    0 6px 18px color-mix(in srgb, var(--vp-shadow) 30%, transparent),
+    0 0 22px color-mix(in srgb, var(--nc) 14%, transparent);
+  transition:
+    border-color 0.25s ease,
+    box-shadow 0.25s ease,
+    transform 0.25s ease,
+    background-color 0.25s ease;
 }
-.vp-lifemap__node-label { overflow: hidden; text-overflow: ellipsis; }
+.vp-lifemap__node-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .vp-lifemap__node.has-children,
-.vp-lifemap__node.has-link { cursor: pointer; }
+.vp-lifemap__node.has-link {
+  cursor: pointer;
+}
 .vp-lifemap__node.has-children:hover,
 .vp-lifemap__node.has-link:hover {
   border-color: var(--nc);
@@ -641,24 +764,54 @@
   font-weight: 800;
   font-size: 1rem;
   height: 42px;
-  background: linear-gradient(120deg, color-mix(in srgb, var(--c-tech) 22%, var(--vp-bg2)), color-mix(in srgb, var(--c-bar) 22%, var(--vp-bg2)));
+  background: linear-gradient(
+    120deg,
+    color-mix(in srgb, var(--c-tech) 22%, var(--vp-bg2)),
+    color-mix(in srgb, var(--c-bar) 22%, var(--vp-bg2))
+  );
   border-color: color-mix(in srgb, var(--c-tech) 55%, transparent);
-  box-shadow: 0 0 0 0 color-mix(in srgb, var(--c-tech) 34%, transparent), 0 8px 30px color-mix(in srgb, var(--c-tech) 20%, transparent);
+  box-shadow:
+    0 0 0 0 color-mix(in srgb, var(--c-tech) 34%, transparent),
+    0 8px 30px color-mix(in srgb, var(--c-tech) 20%, transparent);
   animation: vp-hub-pulse 3.4s ease-out infinite;
 }
 @keyframes vp-hub-pulse {
-  0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--c-tech) 32%, transparent), 0 8px 30px color-mix(in srgb, var(--c-tech) 18%, transparent); }
-  70%, 100% { box-shadow: 0 0 0 16px transparent, 0 8px 30px color-mix(in srgb, var(--c-tech) 18%, transparent); }
+  0% {
+    box-shadow:
+      0 0 0 0 color-mix(in srgb, var(--c-tech) 32%, transparent),
+      0 8px 30px color-mix(in srgb, var(--c-tech) 18%, transparent);
+  }
+  70%,
+  100% {
+    box-shadow:
+      0 0 0 16px transparent,
+      0 8px 30px color-mix(in srgb, var(--c-tech) 18%, transparent);
+  }
 }
 @media (prefers-reduced-motion: reduce) {
-  .vp-lifemap__node--root { animation: none; }
+  .vp-lifemap__node--root {
+    animation: none;
+  }
 }
-.vp-lifemap__node--root .vp-lifemap__node-chev { color: var(--vp-text); background: color-mix(in srgb, var(--vp-text) 14%, transparent); }
-.vp-lifemap__node--tech { --nc: var(--c-tech); }
-.vp-lifemap__node--bar { --nc: var(--c-bar); }
-.vp-lifemap__node--journey { --nc: #5ec8c8; }
-.vp-lifemap__node--lang { --nc: #9b8cff; }
-.vp-lifemap__node--ethos { --nc: #f0789e; }
+.vp-lifemap__node--root .vp-lifemap__node-chev {
+  color: var(--vp-text);
+  background: color-mix(in srgb, var(--vp-text) 14%, transparent);
+}
+.vp-lifemap__node--tech {
+  --nc: var(--c-tech);
+}
+.vp-lifemap__node--bar {
+  --nc: var(--c-bar);
+}
+.vp-lifemap__node--journey {
+  --nc: #5ec8c8;
+}
+.vp-lifemap__node--lang {
+  --nc: #9b8cff;
+}
+.vp-lifemap__node--ethos {
+  --nc: #f0789e;
+}
 
 .vp-lifemap__hint {
   text-align: center;
@@ -671,11 +824,20 @@
 }
 
 /* mode-aware hero doors — lead with the visitor's chosen craft */
-.vp-root[data-mode="bar"] .vp-door-wrap--bar { order: -1; }
-.vp-root[data-mode="tech"] .vp-door-wrap--tech { order: -1; }
+.vp-root[data-mode="bar"] .vp-door-wrap--bar {
+  order: -1;
+}
+.vp-root[data-mode="tech"] .vp-door-wrap--tech {
+  order: -1;
+}
 
 /* ===== live "now" panel ===== */
-.vp-now-wrap { margin-top: -1.5rem; margin-bottom: 1rem; display: flex; justify-content: center; }
+.vp-now-wrap {
+  margin-top: -1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
 .vp-now {
   display: inline-flex;
   align-items: center;
@@ -687,29 +849,83 @@
   border: 1px solid var(--vp-line);
   background: color-mix(in srgb, var(--vp-bg2) 70%, transparent);
 }
-.vp-now__time { display: inline-flex; align-items: center; gap: 7px; font-family: var(--vpf-mono); font-size: 0.84rem; font-weight: 700; color: var(--vp-text); }
-.vp-now__time svg { color: var(--acc); }
-.vp-now__tz { font-size: 0.66rem; font-weight: 600; color: var(--vp-text2); letter-spacing: 0.04em; }
-.vp-now__divider { width: 1px; height: 16px; background: var(--vp-line); }
-.vp-now__statuses { display: inline-flex; align-items: center; gap: 14px; flex-wrap: wrap; }
-.vp-now__statuses li { display: inline-flex; align-items: center; gap: 7px; font-size: 0.78rem; color: var(--vp-text2); }
-.vp-now__dot { width: 7px; height: 7px; border-radius: 50%; background: var(--acc); box-shadow: 0 0 0 0 color-mix(in srgb, var(--acc) 60%, transparent); animation: vp-now-pulse 2.4s ease-out infinite; animation-delay: var(--d, 0s); }
+.vp-now__time {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-family: var(--vpf-mono);
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: var(--vp-text);
+}
+.vp-now__time svg {
+  color: var(--acc);
+}
+.vp-now__tz {
+  font-size: 0.66rem;
+  font-weight: 600;
+  color: var(--vp-text2);
+  letter-spacing: 0.04em;
+}
+.vp-now__divider {
+  width: 1px;
+  height: 16px;
+  background: var(--vp-line);
+}
+.vp-now__statuses {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.vp-now__statuses li {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.78rem;
+  color: var(--vp-text2);
+}
+.vp-now__dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--acc);
+  box-shadow: 0 0 0 0 color-mix(in srgb, var(--acc) 60%, transparent);
+  animation: vp-now-pulse 2.4s ease-out infinite;
+  animation-delay: var(--d, 0s);
+}
 @keyframes vp-now-pulse {
-  0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--acc) 55%, transparent); }
-  70%, 100% { box-shadow: 0 0 0 7px transparent; }
+  0% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--acc) 55%, transparent);
+  }
+  70%,
+  100% {
+    box-shadow: 0 0 0 7px transparent;
+  }
 }
 @media (max-width: 600px) {
-  .vp-now { gap: 10px; }
-  .vp-now__divider { display: none; }
+  .vp-now {
+    gap: 10px;
+  }
+  .vp-home-hero__bottom {
+    bottom: -45px;
+  }
+  .vp-now__divider {
+    display: none;
+  }
 }
 
 /* ============ UNIVERSE GRAPH ============ */
-.vp-home-universe { position: relative; }
+.vp-home-universe {
+  position: relative;
+}
 .vp-home-universe__sub {
   max-width: 64ch;
   margin-bottom: 1.6rem;
 }
-.vp-home-universe .vp-kg { margin-top: 0.5rem; }
+.vp-home-universe .vp-kg {
+  margin-top: 0.5rem;
+}
 .vp-home-universe__hint {
   margin-top: 1rem;
   font-size: 0.82rem;
@@ -728,11 +944,16 @@
   border: 1px solid color-mix(in srgb, var(--acc) 40%, transparent);
   background: color-mix(in srgb, var(--acc) 8%, transparent);
   color: var(--acc);
-  transition: transform 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    background-color 0.25s ease,
+    border-color 0.25s ease;
 }
 .vp-map-toggle:hover {
   transform: translateY(-2px);
   background: color-mix(in srgb, var(--acc) 15%, transparent);
   border-color: color-mix(in srgb, var(--acc) 60%, transparent);
 }
-.vp-home-map__reveal { overflow: hidden; }
+.vp-home-map__reveal {
+  overflow: hidden;
+}
