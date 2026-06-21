@@ -906,6 +906,7 @@
 @media (max-width: 600px) {
   .vp-now {
     gap: 10px;
+    border-radius: 9px;
   }
   .vp-home-hero__bottom {
     bottom: -45px;
