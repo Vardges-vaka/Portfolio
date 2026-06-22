@@ -1,0 +1,169 @@
+{
+  "lab": {
+    "hero": {
+      "kicker": "The Lab",
+      "title": "A playground for both crafts.",
+      "sub": "Interactive, game-like experiments from both sides of what I do — spot a phishing email, then build a cocktail. Made to be poked at, not just read. More toys land here over time."
+    },
+    "back": "Back to tech",
+    "zones": {
+      "security": "Security",
+      "bar": "Behind the bar",
+      "hint": "use the mode toggle to focus"
+    },
+    "soon": {
+      "title": "More experiments incoming.",
+      "sub": "Next up: a 'spot the vulnerability' challenge, a few security puzzles and more bar games. Both crafts get their own toys here."
+    }
+  },
+  "builder": {
+    "kicker": "Make a cocktail",
+    "title": "Build a drink, the Cocktail Tree way.",
+    "sub": "Six roots, six iconic families. Pick a base spirit and pour its signature serve.",
+    "garnish": "Garnish",
+    "bases": {
+      "whiskey": "Whiskey",
+      "gin": "Gin",
+      "rum": "Rum",
+      "tequila": "Tequila",
+      "vodka": "Vodka",
+      "brandy": "Brandy"
+    }
+  },
+  "game": {
+    "kicker": "Security, hands-on",
+    "title": "Spot the phish.",
+    "sub": "Six emails. Phishing or legit? Trust your gut — then see the red flags.",
+    "phish": "Phishing",
+    "legit": "Legit",
+    "correct": "Correct",
+    "wrong": "Not quite",
+    "wasPhish": "this one was phishing",
+    "wasLegit": "this one was legit",
+    "flagsTitle": "What to notice",
+    "next": "Next email",
+    "seeScore": "See score",
+    "finishTitle": "Round complete.",
+    "finishSub": "Spotting these is a daily habit — the same instinct I bring to the code I ship.",
+    "again": "Play again",
+    "vault": {
+      "kicker": "Security, hands-on",
+      "title": "Crack the vault.",
+      "sub": "Type a password and watch a cracker estimate how long it takes to break — against four kinds of attacker. Nothing is stored or sent.",
+      "placeholder": "type a password…",
+      "showpw": "Show password",
+      "hide": "Hide password",
+      "bits": "bits",
+      "privacy": "100% local — your keystrokes never leave this page.",
+      "win": "Vault sealed — that would outlast a GPU farm for over a century. 🔒",
+      "strength": {
+        "weak": "Weak",
+        "fair": "Fair",
+        "strong": "Strong",
+        "fortress": "Fortress"
+      },
+      "tier": {
+        "throttled": "Online (throttled)",
+        "online": "Online (fast)",
+        "gpu": "Offline GPU",
+        "farm": "GPU farm"
+      },
+      "flag": {
+        "repeat": "repeated characters",
+        "sequence": "keyboard sequence",
+        "common": "common password",
+        "wordnum": "word + numbers",
+        "short": "too short"
+      },
+      "instant": "instant",
+      "sec": "sec",
+      "min": "min",
+      "hr": "hours",
+      "days": "days",
+      "yrs": "years",
+      "forever": "heat death of the universe"
+    },
+    "guess": {
+      "kicker": "Blind tasting",
+      "title": "Guess the cocktail.",
+      "sub": "Read the spec and name the classic. How's your palate?",
+      "clue": "The spec",
+      "question": "Which classic is this?",
+      "correct": "Correct!",
+      "wrong": "Not this one",
+      "next": "Next round",
+      "restart": "Restart",
+      "glass": {
+        "rocks": "Served on the rocks",
+        "coupe": "Up, in a coupe",
+        "martini": "Up, in a martini glass",
+        "highball": "Tall, over ice",
+        "wine": "In a wine glass"
+      }
+    },
+    "shake": {
+      "kicker": "Technique check",
+      "title": "Shake or stir?",
+      "sub": "Citrus, juice or egg gets shaken; all-spirit gets stirred. Trust your hands.",
+      "shaken": "Shaken",
+      "stirred": "Stirred",
+      "correct": "Correct",
+      "wrong": "Not quite",
+      "next": "Next",
+      "restart": "Restart",
+      "rank": {
+        "barback": "Barback",
+        "bartender": "Bartender",
+        "head": "Head Bartender",
+        "maestro": "Maestro"
+      }
+    },
+    "pour": {
+      "kicker": "Operator mode",
+      "title": "Pour-cost lab.",
+      "sub": "The real consultancy maths — enter the numbers, watch the margins. Pour cost under ~20% keeps a bar alive.",
+      "bottlePrice": "Bottle price",
+      "bottleSize": "Bottle size",
+      "pourSize": "Pour size",
+      "sellPrice": "Sell price",
+      "pourCost": "Pour cost",
+      "costPerPour": "Cost per pour",
+      "profit": "Profit per pour",
+      "margin": "Margin",
+      "verdict": {
+        "great": "Excellent margin",
+        "good": "Healthy",
+        "high": "Too high — reprice or re-spec"
+      },
+      "note": "Pour cost = (bottle price × pour ÷ bottle size) ÷ sell price."
+    },
+    "spirit": {
+      "kicker": "House knowledge",
+      "title": "Name that spirit.",
+      "sub": "Distillation, botanicals and origins — how deep does your bar knowledge run?",
+      "correct": "Correct",
+      "wrong": "Not quite",
+      "next": "Next question"
+    },
+    "forge": {
+      "kicker": "Cryptography, live",
+      "title": "Hash forge.",
+      "sub": "Type anything and watch it hash live across SHA-1/256/512 — real crypto, in your browser. Flip one bit and the whole digest scrambles.",
+      "placeholder": "type anything…",
+      "flip": "Flip a bit",
+      "copy": "Copy",
+      "note": "Highlighted nibbles changed since the last keystroke — the avalanche effect. Nothing leaves this page."
+    },
+    "cipher": {
+      "kicker": "Break the code",
+      "title": "Cipher lab.",
+      "sub": "Every hidden message is a cocktail recipe. Slide the wheel to find the Caesar shift and decrypt it.",
+      "encrypted": "Encrypted",
+      "decoded": "Decoded",
+      "solved": "Decrypted!",
+      "shift": "Shift",
+      "hint": "Most common letter",
+      "new": "New message"
+    }
+  }
+}

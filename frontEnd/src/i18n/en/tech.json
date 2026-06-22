@@ -1,0 +1,162 @@
+{
+  "tech": {
+    "hero": {
+      "kicker": "vardges.me/tech",
+      "title": "I build systems end-to-end.",
+      "sub": "Self-taught full-stack developer out of the hospitality world. I design, build, secure and ship complete web platforms — and I sweat the details, because I spent 14 years in a job where details are everything.",
+      "open": "Open to opportunities — development · security · automation",
+      "ctaProject": "See the case study",
+      "ctaContact": "Get in touch"
+    },
+    "about": {
+      "kicker": "The origin story",
+      "title": "From bar counters to cloud consoles.",
+      "p1": "Most developers learn to handle pressure from production incidents. I learned it from a full bar on match night. Same skill: stay calm, triage fast, fix the right thing first.",
+      "p2": "I taught myself the MERN stack and went straight for the hard parts — authentication, cloud infrastructure, internationalization, deployment. Not because a course said so, but because my own product needed them.",
+      "p3": "Now I'm going deeper into security: hardening what I build, understanding how it breaks, and aiming my curiosity at cybersecurity as a discipline."
+    },
+    "stack": {
+      "kicker": "Arsenal",
+      "title": "The stack I actually ship with.",
+      "sub": "Every item below is in production code I wrote — not a logo wall.",
+      "groups": [
+        {
+          "name": "Frontend",
+          "items": [
+            "React 19",
+            "Vite",
+            "React Router 7",
+            "Context API",
+            "Framer Motion",
+            "i18next — 4 locales + RTL",
+            "CSS design systems"
+          ]
+        },
+        {
+          "name": "Backend",
+          "items": [
+            "Node.js",
+            "Express",
+            "MongoDB + Mongoose",
+            "Session auth (connect-mongo)",
+            "Layered architecture",
+            "REST API design",
+            "Validation pipelines"
+          ]
+        },
+        {
+          "name": "Cloud & DevOps",
+          "items": [
+            "AWS — EC2 · ALB · CodeBuild",
+            "Google Cloud Storage + Monitoring",
+            "AWS S3 + CloudWatch",
+            "Cloudflare R2",
+            "Azure Blob + Monitor",
+            "CI build pipelines"
+          ]
+        },
+        {
+          "name": "Security & practice",
+          "items": [
+            "Input validation layers",
+            "Least-privilege IAM",
+            "Helmet + secure cookies",
+            "Trust-proxy hardening",
+            "Secrets hygiene",
+            "Automation & AI tooling"
+          ]
+        }
+      ]
+    },
+    "project": {
+      "kicker": "Case study",
+      "title": "One platform, four clouds.",
+      "name": "vardges.me — Operations Platform",
+      "desc": "A production MERN platform I designed, built and deployed solo: an operations dashboard for managing dark-kitchen restaurant chains, with file storage that can live on any of four cloud providers.",
+      "bullets": [
+        {
+          "title": "Multi-cloud storage engine",
+          "text": "One interface over Google Cloud Storage, AWS S3, Cloudflare R2 and Azure Blob — with live health pings and provider monitoring built in."
+        },
+        {
+          "title": "Security first",
+          "text": "Server-side sessions in MongoDB, Helmet headers, secure cookies behind an AWS load balancer, and a validator layer in front of every write."
+        },
+        {
+          "title": "Speaks four languages",
+          "text": "Full internationalization in English, Russian, Armenian and Arabic — including right-to-left layout support."
+        },
+        {
+          "title": "Really deployed",
+          "text": "AWS EC2 behind an Application Load Balancer with CodeBuild CI, health endpoints designed for the balancer's checks."
+        }
+      ],
+      "stackLine": "React · Node · Express · MongoDB · AWS · GCP · Cloudflare · Azure",
+      "mockNote": "Live provider health — a real feature of the platform"
+    },
+    "security": {
+      "kicker": "Security mindset",
+      "title": "Built paranoid, on purpose.",
+      "sub": "Hospitality teaches you to spot trouble before it reaches the bar. I write software the same way.",
+      "cards": [
+        {
+          "title": "Defense in depth",
+          "text": "Every request passes route guards, validators and sanitizers before it ever touches data."
+        },
+        {
+          "title": "Least privilege",
+          "text": "Scoped IAM roles per cloud provider — nothing gets one permission more than it needs."
+        },
+        {
+          "title": "Hardened sessions",
+          "text": "Server-side sessions, secure cookies, and trust-proxy configured correctly behind the load balancer."
+        },
+        {
+          "title": "Breaking to learn",
+          "text": "Moving deeper into offensive and defensive security — labs, CTFs and a healthy distrust of my own code."
+        }
+      ]
+    },
+    "projects": {
+      "kicker": "Selected work",
+      "title": "Projects with receipts.",
+      "sub": "Shipped, in the works, or on the bench — each one solves a problem I actually have.",
+      "sampleNote": "Sample data — the live project feed plugs in here soon.",
+      "statusLive": "Live",
+      "statusProgress": "In progress",
+      "statusConcept": "Concept",
+      "code": "Code",
+      "live": "Visit",
+      "details": "Jump to case study",
+      "deepDive": "Deep dive",
+      "view": "View case study",
+      "showAll": "Show all projects",
+      "showLess": "Show fewer",
+      "loadMore": "Load more"
+    },
+    "certs": {
+      "kicker": "Certificates",
+      "title": "Paper trail.",
+      "sub": "What I've earned — and the cybersecurity roadmap I'm working through next.",
+      "view": "View PDF",
+      "viewPath": "View path",
+      "planned": "Planned",
+      "showAll": "Show all certificates",
+      "showLess": "Show fewer",
+      "loadMore": "Load more",
+      "flip": "What it covers",
+      "back": "Back"
+    },
+    "lab": {
+      "kicker": "Take a break",
+      "title": "Try the security lab.",
+      "sub": "A small playground of interactive, game-like pieces — start by spotting the phish.",
+      "cta": "Enter the Lab"
+    },
+    "cta": {
+      "title": "Need someone who ships and secures?",
+      "sub": "I'm open to roles in web development, security and automation — on site in Dubai or remote.",
+      "button": "Hire me"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+/* ============================================================
+   Route-load placeholder
+   Keeps the footer from jumping up under the navbar while a lazy
+   page chunk loads — the <Suspense> fallback uses this class.
+   ============================================================ */
+.vp-route-loading {
+  min-height: 100vh;
+  min-height: 100svh;
+}
+
+/* ============================================================
+   Device zoom
+   DeviceProvider sets data-device on .vp-root. Zoom the whole page
+   out a touch on phones so more content fits comfortably. --vp-zoom
+   is tunable (and stays 1 — a no-op — on tablet/desktop).
+   ============================================================ */
+.vp-root {
+  zoom: var(--vp-zoom, 1);
+}
+.vp-root[data-device="mobile"] {
+  --vp-zoom: 0.9;
+}

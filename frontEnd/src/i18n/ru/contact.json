@@ -1,0 +1,55 @@
+{
+  "contact": {
+    "kicker": "Контакты",
+    "title": "Давайте поговорим.",
+    "sub": "Продукт, который нужно построить, система, которую нужно защитить, или бар, который нужно преобразить — отвечаю быстро.",
+    "emailLabel": "Email",
+    "phoneLabel": "Телефон",
+    "linkedinLabel": "LinkedIn",
+    "locationLabel": "Локация",
+    "locationValue": "Дубай, ОАЭ",
+    "ctaEmail": "Написать письмо",
+    "ctaLinkedIn": "Связаться в LinkedIn",
+    "intents": {
+      "tech": "Сборка",
+      "bar": "Консультация",
+      "other": "Разговор"
+    },
+    "cli": {
+      "host": "vardges@dubai: ~/contact",
+      "hint": "# составьте запрос — отвечаю в течение 24 часов",
+      "intent": "intent",
+      "send": "отправить запрос",
+      "sending": "отправка…",
+      "posting": "POST https://vardges.me/api/contact",
+      "ok": "200 OK",
+      "okBody": "{ \"status\": \"received\", \"reply_within\": \"24h\" }"
+    },
+    "simple": {
+      "heading": "Напишите мне.",
+      "hint": "Расскажите, над чем работаете — отвечаю в течение 24 часов."
+    }
+  },
+  "form": {
+    "name": "Имя",
+    "namePh": "Ваше имя",
+    "email": "Email",
+    "emailPh": "you@example.com",
+    "topic": "Тема",
+    "topicTech": "Технологии / разработка",
+    "topicBar": "Гостеприимство / консалтинг",
+    "topicOther": "Другое",
+    "message": "Сообщение",
+    "messagePh": "Расскажите о вашем проекте, заведении или идее…",
+    "submit": "Отправить сообщение",
+    "sending": "Отправка…",
+    "successTitle": "Сообщение отправлено!",
+    "successText": "Спасибо! Отвечу в течение 24 часов.",
+    "sendAnother": "Отправить ещё одно",
+    "privacy": "Без спама и рассылок — письмо попадает прямо в мой ящик.",
+    "errName": "Пожалуйста, представьтесь.",
+    "errEmail": "Укажите email.",
+    "errEmailInvalid": "Этот email выглядит неверно.",
+    "errMessage": "Напишите сообщение."
+  }
+}

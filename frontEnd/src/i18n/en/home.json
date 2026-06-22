@@ -1,0 +1,214 @@
+{
+  "home": {
+    "hero": {
+      "kicker": "Dubai · United Arab Emirates",
+      "name": "Vardges Petrosyan",
+      "tagline": "Two crafts. One standard: excellence.",
+      "techWord": "The Engineer",
+      "techSub": "MERN · Cloud · Security",
+      "barWord": "The Alchemist",
+      "barSub": "Bars · Beverage · Hospitality",
+      "enterTech": "Enter the tech side",
+      "enterBar": "Enter the bar side",
+      "scroll": "Scroll to explore"
+    },
+    "marquee": [
+      "Dubai",
+      "Full-Stack Developer",
+      "Bar Director",
+      "33 Countries",
+      "MERN Stack",
+      "Mixology",
+      "Cloud & Security",
+      "4 Languages"
+    ],
+    "now": {
+      "tz": "Dubai · GST",
+      "statuses": [
+        "Building vardges.me",
+        "Open to roles",
+        "On the cybersecurity roadmap"
+      ]
+    },
+    "universe": {
+      "kicker": "Two crafts, one standard",
+      "title": "Where the two crafts meet.",
+      "sub": "Engineering on one side, hospitality on the other — and the bridges that prove they're the same discipline. Drag a star, click a bridge, or switch the audience mode up top to light up one craft.",
+      "hint": "The gold nodes are the bridges — ideas both crafts share."
+    },
+    "intro": {
+      "kicker": "Who I am",
+      "title": "Two crafts. One discipline.",
+      "p1": "For 14 years I ran bars — from Yerevan to the Metropol in Moscow to Dubai's busiest sports bar. Hospitality taught me the hardest skill there is: reading people, under pressure, every single night.",
+      "p2": "Then I taught myself to build software. Not toy projects — a real production platform with a multi-cloud storage engine, hardened auth, and four languages, deployed on AWS.",
+      "p3": "Code scales what hospitality taught me: care about the person on the other side. That's the whole philosophy — in a cocktail or in an API.",
+      "badges": [
+        "Self-taught",
+        "Bilingual mindset",
+        "Detail-obsessed",
+        "Guest-first"
+      ]
+    },
+    "stats": {
+      "kicker": "The numbers",
+      "title": "A career, measured.",
+      "items": [
+        {
+          "value": 14,
+          "suffix": "+",
+          "label": "years in hospitality"
+        },
+        {
+          "value": 33,
+          "suffix": "",
+          "label": "countries explored"
+        },
+        {
+          "value": 500,
+          "suffix": "+",
+          "label": "recipes mastered"
+        },
+        {
+          "value": 20,
+          "suffix": "+",
+          "label": "outlets managed"
+        },
+        {
+          "value": 4,
+          "suffix": "",
+          "label": "languages spoken"
+        },
+        {
+          "value": 1,
+          "suffix": "",
+          "label": "production platform built"
+        }
+      ]
+    },
+    "timeline": {
+      "kicker": "The journey",
+      "title": "From the bar counter to the cloud console.",
+      "sub": "Every stop added an ingredient. This is the full recipe.",
+      "legend": {
+        "bar": "Hospitality",
+        "tech": "Technology",
+        "hybrid": "Both worlds"
+      },
+      "items": [
+        {
+          "year": "2011",
+          "title": "First shift behind the bar",
+          "place": "Congress Hotel · Yerevan, Armenia",
+          "text": "Bar-back to bartender. The lesson that stuck: a good bartender mixes smiles and stories, not just drinks.",
+          "type": "bar"
+        },
+        {
+          "year": "2013",
+          "title": "Head Bartender at the Metropol",
+          "place": "Hotel Metropol · Moscow, Russia",
+          "text": "Leading the Shalyapin Bar with an inventory of 500+ beverages for Moscow's elite hospitality scene.",
+          "type": "bar"
+        },
+        {
+          "year": "2013–14",
+          "title": "Beach by day, disco by night",
+          "place": "Miramar Al Aqah Beach Resort · Fujairah, UAE",
+          "text": "Acting Head Bartender across a beach bar and a nightclub — adaptability, served on tap.",
+          "type": "bar"
+        },
+        {
+          "year": "2015–16",
+          "title": "Head Bartender, Blu Sky Lounge",
+          "place": "Southern Sun · Abu Dhabi, UAE",
+          "text": "Promoted on merit. Running operations and mentoring the team in a high-energy rooftop lounge.",
+          "type": "bar"
+        },
+        {
+          "year": "2018",
+          "title": "Twenty outlets at once",
+          "place": "Subah Group · Sheraton Al Khalidiya, Abu Dhabi",
+          "text": "Group Bar Manager across 20+ F&B outlets — a crash course in large-scale hospitality strategy.",
+          "type": "bar"
+        },
+        {
+          "year": "2018–24",
+          "title": "Bar Manager, BFF Sports Bar",
+          "place": "Dubai, UAE",
+          "text": "Six years running one of Dubai's leading sports bars: menus, team, events, and relentless growth.",
+          "type": "bar"
+        },
+        {
+          "year": "2022",
+          "title": "Founder, The Cocktail Tree",
+          "place": "Dubai, UAE",
+          "text": "Beverage consulting, training and menu engineering — pouring 14 years of experience into other venues.",
+          "type": "hybrid"
+        },
+        {
+          "year": "2023",
+          "title": "The pivot: learning to code",
+          "place": "Self-taught · Dubai, UAE",
+          "text": "JavaScript, React, Node, MongoDB — nights and weekends, building real systems instead of tutorials.",
+          "type": "tech"
+        },
+        {
+          "year": "2024",
+          "title": "Director of Marketing & BD",
+          "place": "Vkusno · Dubai, UAE",
+          "text": "Growing a restaurant brand across Talabat, Careem, Deliveroo and Noon — where hospitality meets digital.",
+          "type": "hybrid"
+        },
+        {
+          "year": "Now",
+          "title": "Shipping vardges.me",
+          "place": "Production · AWS",
+          "text": "A full-stack operations platform with a multi-cloud storage engine, secure sessions and 4-language i18n.",
+          "type": "tech"
+        }
+      ]
+    },
+    "doors": {
+      "kicker": "Choose a path",
+      "title": "Same person. Pick your poison.",
+      "tech": {
+        "title": "The tech portfolio",
+        "sub": "Full-stack engineering, cloud architecture and a security-first mindset.",
+        "cta": "Explore /tech"
+      },
+      "bar": {
+        "title": "The hospitality portfolio",
+        "sub": "14 years of bars, beverage programs and guest experiences across three countries.",
+        "cta": "Explore /bar"
+      }
+    }
+  },
+  "lifemap": {
+    "kicker": "The map",
+    "title": "A life in two crafts.",
+    "sub": "Click any branch to open it — the whole story, mapped.",
+    "show": "Show the mind map",
+    "hide": "Hide the mind map",
+    "hint": "Click a node to expand · the off-craft branch dims with your audience mode",
+    "nodes": {
+      "eng": "The Engineer",
+      "bartender": "The Bartender",
+      "journey": "The Journey",
+      "languages": "Languages",
+      "philosophy": "Philosophy",
+      "fullstack": "Full-Stack",
+      "cloud": "Cloud & DevOps",
+      "cyber": "Cybersecurity",
+      "autoai": "Automation & AI",
+      "mixology": "Mixology",
+      "menu": "Menu Engineering",
+      "leadership": "Leadership",
+      "armenia": "Armenia",
+      "russia": "Russia",
+      "uae": "UAE",
+      "countries": "33 Countries",
+      "standard": "Two crafts, one standard",
+      "detail": "Detail-obsessed",
+      "guest": "Guest-first"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+export { default as Bar_hero } from "./Bar_hero.jsx";
+export { default as Bar_numbers } from "./Bar_numbers.jsx";
+export { default as Bar_menu } from "./Bar_menu.jsx";
+export { default as Bar_craft } from "./Bar_craft.jsx";
+export { default as Bar_tree } from "./Bar_tree.jsx";
+export { default as Bar_labTeaser } from "./Bar_labTeaser.jsx";
+export { default as Bar_vkusno } from "./Bar_vkusno.jsx";
+export { default as Bar_certs } from "./Bar_certs.jsx";
+export { default as Bar_testimonials } from "./Bar_testimonials.jsx";
+export { default as Bar_cta } from "./Bar_cta.jsx";

@@ -1,0 +1,11 @@
+export { get_barProps } from "./get_barProps.js";
+export { get_heroProps } from "./get_heroProps.js";
+export { get_numbersProps } from "./get_numbersProps.js";
+export { get_menuProps } from "./get_menuProps.js";
+export { get_craftProps } from "./get_craftProps.js";
+export { get_treeProps } from "./get_treeProps.js";
+export { get_labTeaserProps } from "./get_labTeaserProps.js";
+export { get_vkusnoProps } from "./get_vkusnoProps.js";
+export { get_certsProps } from "./get_certsProps.js";
+export { get_testimonialsProps } from "./get_testimonialsProps.js";
+export { get_ctaProps } from "./get_ctaProps.js";

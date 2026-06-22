@@ -1,0 +1,9 @@
+export { default as Tech_hero } from "./Tech_hero.jsx";
+export { default as Tech_about } from "./Tech_about.jsx";
+export { default as Tech_stack } from "./Tech_stack.jsx";
+export { default as Tech_skills } from "./Tech_skills.jsx";
+export { default as Tech_projects } from "./Tech_projects.jsx";
+export { default as Tech_certs } from "./Tech_certs.jsx";
+export { default as Tech_security } from "./Tech_security.jsx";
+export { default as Tech_labTeaser } from "./Tech_labTeaser.jsx";
+export { default as Tech_cta } from "./Tech_cta.jsx";

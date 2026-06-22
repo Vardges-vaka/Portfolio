@@ -1,0 +1,55 @@
+{
+  "contact": {
+    "kicker": "Contact",
+    "title": "Let's talk.",
+    "sub": "Whether it's a product to build, a system to secure, or a bar to transform — I answer fast.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "linkedinLabel": "LinkedIn",
+    "locationLabel": "Based in",
+    "locationValue": "Dubai, UAE",
+    "ctaEmail": "Write me an email",
+    "ctaLinkedIn": "Connect on LinkedIn",
+    "intents": {
+      "tech": "Build",
+      "bar": "Consult",
+      "other": "Chat"
+    },
+    "cli": {
+      "host": "vardges@dubai: ~/contact",
+      "hint": "# compose a request — I reply within 24h",
+      "intent": "intent",
+      "send": "send request",
+      "sending": "sending…",
+      "posting": "POST https://vardges.me/api/contact",
+      "ok": "200 OK",
+      "okBody": "{ \"status\": \"received\", \"reply_within\": \"24h\" }"
+    },
+    "simple": {
+      "heading": "Drop me a line.",
+      "hint": "Tell me what you're working on — I reply within 24 hours."
+    }
+  },
+  "form": {
+    "name": "Name",
+    "namePh": "Your name",
+    "email": "Email",
+    "emailPh": "you@example.com",
+    "topic": "Topic",
+    "topicTech": "Tech / Development",
+    "topicBar": "Hospitality / Consulting",
+    "topicOther": "Something else",
+    "message": "Message",
+    "messagePh": "Tell me about your project, venue or idea…",
+    "submit": "Send message",
+    "sending": "Sending…",
+    "successTitle": "Message sent!",
+    "successText": "Thanks for reaching out — I'll get back to you within 24 hours.",
+    "sendAnother": "Send another message",
+    "privacy": "No spam, no lists — this lands straight in my inbox.",
+    "errName": "Please tell me your name.",
+    "errEmail": "An email is required.",
+    "errEmailInvalid": "That email doesn't look right.",
+    "errMessage": "A message is required."
+  }
+}

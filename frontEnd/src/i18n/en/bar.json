@@ -1,0 +1,186 @@
+{
+  "bar": {
+    "hero": {
+      "kicker": "Est. 2011 · Yerevan → Moscow → Dubai",
+      "title": "Part science. Part theatre. All hospitality.",
+      "sub": "Bar manager, beverage consultant and founder of The Cocktail Tree — I build bars that people come back to.",
+      "cta1": "Taste the journey",
+      "cta2": "Work with me"
+    },
+    "numbers": {
+      "kicker": "Poured in numbers",
+      "title": "Fourteen years, distilled.",
+      "items": [
+        {
+          "value": 14,
+          "suffix": "+",
+          "label": "years of service"
+        },
+        {
+          "value": 500,
+          "suffix": "+",
+          "label": "recipes by heart"
+        },
+        {
+          "value": 20,
+          "suffix": "+",
+          "label": "outlets managed"
+        },
+        {
+          "value": 33,
+          "suffix": "",
+          "label": "countries travelled"
+        },
+        {
+          "value": 65,
+          "suffix": "+",
+          "label": "cities explored"
+        }
+      ],
+      "globeNote": "One bus tour. 33 countries. 65+ cities. Endless inspiration for the back bar."
+    },
+    "menu": {
+      "kicker": "The journey",
+      "title": "A career, served as a tasting menu.",
+      "sub": "Eight courses. Three countries. One standard.",
+      "courses": [
+        {
+          "course": "Aperitivo",
+          "year": "2011–13",
+          "role": "Bartender",
+          "venue": "Congress Hotel, Venice Bar",
+          "city": "Yerevan, Armenia",
+          "text": "Where it began. Bar-back to bartender — learning that the craft is people, not just pours."
+        },
+        {
+          "course": "First Pour",
+          "year": "2013",
+          "role": "Head Bartender",
+          "venue": "Hotel Metropol, Shalyapin Bar",
+          "city": "Moscow, Russia",
+          "text": "Leading a legendary hotel bar with 500+ beverages in inventory and zero room for error."
+        },
+        {
+          "course": "Sunset Course",
+          "year": "2013–14",
+          "role": "Acting Head Bartender",
+          "venue": "Miramar Al Aqah Beach Resort",
+          "city": "Fujairah, UAE",
+          "text": "Beach bar by day, Bliss Disco by night — two venues, two tempos, one bartender."
+        },
+        {
+          "course": "Signature Serve",
+          "year": "2015–16",
+          "role": "Head Bartender",
+          "venue": "Southern Sun, Blu Sky Lounge",
+          "city": "Abu Dhabi, UAE",
+          "text": "Promoted on the floor. Running service and mentoring the team in a rooftop sports lounge."
+        },
+        {
+          "course": "Grand Tasting",
+          "year": "2018",
+          "role": "Group Bar Manager",
+          "venue": "Subah Group · Sheraton Al Khalidiya",
+          "city": "Abu Dhabi, UAE",
+          "text": "20+ outlets across the capital — strategy, standards and training at group scale."
+        },
+        {
+          "course": "Main Course",
+          "year": "2018–24",
+          "role": "Bar Manager",
+          "venue": "BFF Sports Bar",
+          "city": "Dubai, UAE",
+          "text": "Six years at the helm of one of Dubai's leading sports bars — menu, team, events, growth."
+        },
+        {
+          "course": "Digestif",
+          "year": "2022–now",
+          "role": "Founder",
+          "venue": "The Cocktail Tree",
+          "city": "Dubai, UAE",
+          "text": "Consulting, training and menu engineering — sharing the recipe book with the industry."
+        },
+        {
+          "course": "Chef's Surprise",
+          "year": "2024–now",
+          "role": "Director of Marketing & BD",
+          "venue": "Vkusno",
+          "city": "Dubai, UAE",
+          "text": "Taking a restaurant brand digital — growth across every major delivery platform in the UAE."
+        }
+      ]
+    },
+    "tree": {
+      "kicker": "The Cocktail Tree",
+      "title": "Consulting, with roots.",
+      "desc": "The Cocktail Tree is my consultancy — six roots, like the six classic cocktail families. It exists to make great beverage programs accessible to any venue, from neighborhood bar to hotel group.",
+      "services": [
+        {
+          "title": "Menu engineering",
+          "text": "Cocktail lists that fit your concept, your guests and your margins — not someone else's trends."
+        },
+        {
+          "title": "Staff training & masterclasses",
+          "text": "From first shake to flair — practical training that survives a Friday night rush."
+        },
+        {
+          "title": "Bar audits & cost control",
+          "text": "Pour costs, inventory discipline and waste — found, fixed and kept fixed."
+        },
+        {
+          "title": "Concept & opening support",
+          "text": "Layout, workflow, equipment and first menu — for openings that start strong."
+        },
+        {
+          "title": "Supplier & inventory strategy",
+          "text": "The right back bar at the right price, with relationships that outlast promotions."
+        },
+        {
+          "title": "Guest experience design",
+          "text": "Service rituals, signature serves and the small moments guests tell stories about."
+        }
+      ]
+    },
+    "vkusno": {
+      "kicker": "Beyond the bar",
+      "title": "Hospitality, gone digital.",
+      "role": "Director of Marketing & Business Development — Vkusno, Dubai",
+      "desc": "Running growth for an authentic Russian-cuisine brand in the UAE — proof that the same instincts that fill a bar can fill an order queue.",
+      "points": [
+        "Partnerships with Talabat, Careem, Deliveroo and Noon Food",
+        "Brand identity, website and mobile-app development oversight",
+        "SEO, social media and influencer campaigns",
+        "Loyalty programs and seasonal retention campaigns"
+      ]
+    },
+    "media": {
+      "kicker": "Atmosphere",
+      "title": "The craft, in motion.",
+      "sub": "Service, signature serves and the rooms I've run — a glimpse from behind the counter."
+    },
+    "certs": {
+      "kicker": "Credentials",
+      "title": "Trained, certified, negotiated.",
+      "view": "View PDF"
+    },
+    "craft": {
+      "kicker": "Craft & connections",
+      "title": "The craft, and how it all connects.",
+      "sub": "The radar is the snapshot; the graph is the map — fourteen years of venues and the crafts they built, wired together.",
+      "radarTitle": "Fourteen years, mapped",
+      "radarNote": "A self-assessment across the crafts of running a bar — built over fourteen years from Yerevan to Moscow to Dubai. The graph beside it shows where each one was earned.",
+      "graphSub": "Every venue exercised a craft; every step led to the next. Toggle experiences and skills, filter by country, and click any node to read it."
+    },
+    "lab": {
+      "kicker": "Take a break",
+      "title": "Build a cocktail.",
+      "sub": "Step behind the bar in the Lab — pick a base spirit and pour its signature serve.",
+      "cta": "Enter the Lab"
+    },
+    "cta": {
+      "title": "Let's raise the bar. Literally.",
+      "sub": "Consulting, beverage programs, openings, training — or a bar that just needs to make money again.",
+      "button": "Book a consultation"
+    }
+  }
+}

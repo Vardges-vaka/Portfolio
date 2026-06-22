@@ -1,0 +1,266 @@
+{
+  "meta": {
+    "name": "Vardges Petrosyan",
+    "role": "Full-Stack Developer × Hospitality Leader",
+    "location": "Dubai, United Arab Emirates"
+  },
+  "a11y": {
+    "skip": "Skip to content"
+  },
+  "certCats": {
+    "all": "All",
+    "dev": "Development",
+    "auto": "Automation & Cloud",
+    "ai": "AI & Prompting",
+    "cyber": "Cybersecurity",
+    "foundations": "Foundations"
+  },
+  "mode": {
+    "label": "Audience mode",
+    "tech": "Engineer",
+    "both": "Both",
+    "bar": "Bartender"
+  },
+  "cv": {
+    "tech": "Tech CV",
+    "bar": "Hospitality CV",
+    "both": "Full CV"
+  },
+  "testimonials": {
+    "kicker": "In their words",
+    "title": "What teams say about working with me.",
+    "sub": "Recommendations from the people I've built bars and teams with.",
+    "source": "See all recommendations on LinkedIn",
+    "aiTranslated": "These recommendations were written in English — this translation was generated with AI.",
+    "aiBadge": "AI translation",
+    "aiTip": "Originally written in English on LinkedIn. Translated automatically with AI; the original wording is the authoritative version."
+  },
+  "skills": {
+    "aria": "Proficiency radar",
+    "tech": {
+      "kicker": "Skills",
+      "title": "Skills & systems.",
+      "sub": "A proficiency profile across what I build — hover an axis to read it."
+    },
+    "bar": {
+      "kicker": "Skills",
+      "title": "Skills & craft.",
+      "sub": "Fourteen years, mapped — hover an axis to read it."
+    },
+    "connect": {
+      "kicker": "Skills & systems",
+      "title": "What I'm strong at — and how it all connects.",
+      "viewLabel": "Switch between the graph and the proficiency radar",
+      "view": {
+        "graph": "Graph",
+        "radar": "Radar",
+        "both": "Both"
+      },
+      "cap": {
+        "both": "The radar is the snapshot; the graph is the proof — the same skills, two ways to read them."
+      }
+    },
+    "evidenceNote": "This isn't a self-rating. Each skill's strength is computed from how many certificates I've earned and projects I've shipped that feed it — so the shape reflects evidence, not opinion. The cybersecurity roadmap (planned, in the graph) is deliberately left out here; it's where I'm heading, not where I am.",
+    "axes": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "cloud": "Cloud",
+      "security": "Security",
+      "automation": "Automation",
+      "design": "Design",
+      "ai": "AI",
+      "data": "Data",
+      "mixology": "Mixology",
+      "menu": "Menu engineering",
+      "leadership": "Team leadership",
+      "cost": "Cost control",
+      "guest": "Guest experience",
+      "events": "Events"
+    }
+  },
+  "graph": {
+    "kicker": "The graph",
+    "title": "How it all connects.",
+    "sub": "Every certificate feeds a skill; every skill powers a project — and the certificates open the projects directly too. Toggle the node types, filter the certificates, tune the physics, and click any node to read it.",
+    "aria": "Interactive knowledge graph of certificates, skills and projects. Use the list below to open any node.",
+    "hint": "Drag · Ctrl/⌘ + scroll to zoom · click a node",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "fit": "Fit to view",
+    "nodeList": "Every node — open one to read its details",
+    "filterTypes": "Show or hide node types",
+    "filterCats": "Filter certificates by category",
+    "tune": "Tune",
+    "tuneTitle": "Graph controls",
+    "reset": "Reset",
+    "size": {
+      "s": "Small",
+      "m": "Medium",
+      "l": "Large"
+    },
+    "ctrl": {
+      "nodeSize": "Node size",
+      "centerForce": "Centre force",
+      "repelForce": "Repel force",
+      "linkForce": "Link force",
+      "linkWidth": "Link thickness",
+      "textFade": "Text fade threshold"
+    },
+    "legendCert": "Certificates",
+    "legendSkill": "Skills",
+    "legendProject": "Projects",
+    "legendExperience": "Experiences",
+    "legendTestimonial": "Recommendations",
+    "legendTech": "Engineering",
+    "legendBar": "Hospitality",
+    "legendBridge": "Bridges",
+    "typeCert": "Certificate",
+    "typeSkill": "Skill",
+    "typeProject": "Project",
+    "typeExperience": "Experience",
+    "typeTestimonial": "Recommendation",
+    "typeBridge": "Bridge",
+    "bridgeSub": "Where the two crafts meet",
+    "filterCountries": "Filter experiences by country",
+    "countries": {
+      "Armenia": "Armenia",
+      "Russia": "Russia",
+      "UAE": "UAE"
+    },
+    "seeJourney": "See it in the journey",
+    "rel": {
+      "cert": {
+        "skill": "Builds these skills",
+        "project": "Enabled these projects"
+      },
+      "skill": {
+        "cert": "Fed by these certificates",
+        "project": "Powers these projects",
+        "experience": "Built across these roles",
+        "testimonial": "Praised in",
+        "bridge": "Bridges to the other craft"
+      },
+      "project": {
+        "skill": "Skills it uses",
+        "cert": "Built on these certificates",
+        "project": "Related projects"
+      },
+      "experience": {
+        "skill": "Crafts it built",
+        "experience": "Career path",
+        "testimonial": "What people said"
+      },
+      "testimonial": {
+        "experience": "Worked with me at",
+        "skill": "What they praised"
+      },
+      "bridge": {
+        "skill": "Connects these crafts"
+      }
+    },
+    "skills": {
+      "sk-frontend": {
+        "name": "Frontend",
+        "desc": "React, modern CSS, interactive UIs and design systems."
+      },
+      "sk-backend": {
+        "name": "Backend",
+        "desc": "Node, Express, REST APIs, MongoDB and layered architecture."
+      },
+      "sk-cloud": {
+        "name": "Cloud & DevOps",
+        "desc": "AWS, GCP, Azure, Cloudflare, CI/CD and deployment."
+      },
+      "sk-security": {
+        "name": "Security",
+        "desc": "Security-first engineering, hardening and the OWASP mindset."
+      },
+      "sk-automation": {
+        "name": "Automation",
+        "desc": "Python scripting, cron and removing manual work."
+      },
+      "sk-ai": {
+        "name": "AI & Prompting",
+        "desc": "Applied AI and prompt engineering across the whole workflow."
+      },
+      "sk-data": {
+        "name": "Data",
+        "desc": "Turning raw data into analysis, dashboards and decisions."
+      },
+      "sk-blue": {
+        "name": "Blue Team & SOC",
+        "desc": "Detection, monitoring, threat hunting and incident response — defending the estate."
+      },
+      "sk-offensive": {
+        "name": "Offensive Security",
+        "desc": "Penetration testing and red-team craft — breaking systems to harden them."
+      },
+      "sk-grc": {
+        "name": "GRC & Compliance",
+        "desc": "Governance, risk and compliance — frameworks, controls and audit readiness."
+      },
+      "bk-mixology": {
+        "name": "Mixology",
+        "desc": "Classics, originals and the craft behind the bar — from spec to service."
+      },
+      "bk-menu": {
+        "name": "Menu engineering",
+        "desc": "Cocktail lists built around the concept, the guests and the margins."
+      },
+      "bk-leadership": {
+        "name": "Team leadership",
+        "desc": "Hiring, training and running busy floors under pressure."
+      },
+      "bk-cost": {
+        "name": "Cost control",
+        "desc": "Pour cost, inventory discipline and protecting the bottom line."
+      },
+      "bk-guest": {
+        "name": "Guest experience",
+        "desc": "Service rituals and the small moments guests remember and retell."
+      },
+      "bk-events": {
+        "name": "Events",
+        "desc": "Competitions, tastings and the nights people talk about afterwards."
+      },
+      "bk-training": {
+        "name": "Training & mentorship",
+        "desc": "Turning new hires into a confident, consistent team."
+      },
+      "bk-openings": {
+        "name": "Openings & concept",
+        "desc": "Layout, workflow, equipment and a first menu that lands."
+      },
+      "bk-supplier": {
+        "name": "Supplier & inventory",
+        "desc": "The right back bar at the right price, with relationships that outlast promos."
+      },
+      "bk-brand": {
+        "name": "Brand & growth",
+        "desc": "Identity, marketing and delivery growth beyond the bar itself."
+      }
+    },
+    "bridges": {
+      "br-experience": {
+        "label": "Experience design",
+        "why": "A guest at the bar or a user in an app — either way you're designing how someone feels, moment to moment."
+      },
+      "br-cost": {
+        "label": "Cost discipline",
+        "why": "Pour cost or cloud spend — the same instinct: know your numbers, cut the waste, protect the margin."
+      },
+      "br-system": {
+        "label": "Systems thinking",
+        "why": "A cocktail menu and an API are both systems — sequenced, balanced and built to hold up under load."
+      },
+      "br-triage": {
+        "label": "Reading the room",
+        "why": "Reading a room and triaging an incident are one reflex: spot what's off, stay calm, fix the right thing first."
+      },
+      "br-scale": {
+        "label": "Multiplying yourself",
+        "why": "Automation removes the work only you can do; training builds a team that doesn't need you to. Both scale one person."
+      }
+    }
+  }
+}

@@ -1,15 +1,8 @@
-import en from "./en.js";
-import ru from "./ru.js";
-import hy from "./hy.js";
-import ar from "./ar.js";
-// Supplementary translations for the data-driven, id-keyed namespaces
-// (certInfo / projectInfo / testimonialInfo) plus the newer UI keys. Kept apart
-// from the big base files and deep-merged in so the base files stay readable.
-// English canonical for the id-keyed prose lives in the data files (t fallback),
-// so there is no en extra.
-import ruExtra from "./extra/ru.js";
-import hyExtra from "./extra/hy.js";
-import arExtra from "./extra/ar.js";
+// Translations are split into per-page / per-shared-area JSON files under
+// i18n/<lang>/ (home, tech, bar, lab, header, footer, contact, common,
+// notFound). Each file keeps full key paths, and we deep-merge every file for a
+// language into one dictionary — so t("home.hero.name") still resolves against
+// the whole dictionary regardless of which file the key lives in.
 
 const isObj = (v) => v && typeof v === "object" && !Array.isArray(v);
 const deepMerge = (base, extra) => {
@@ -21,12 +14,20 @@ const deepMerge = (base, extra) => {
   return out;
 };
 
-export const DICTIONARIES = {
-  en,
-  ru: deepMerge(ru, ruExtra),
-  hy: deepMerge(hy, hyExtra),
-  ar: deepMerge(ar, arExtra),
+// Eager glob: every language JSON is bundled at build time. Each top-level key
+// lives in exactly one file, so merge order never matters.
+const modules = import.meta.glob("./{en,ru,hy,ar}/*.json", { eager: true });
+
+const buildDictionaries = () => {
+  const dicts = { en: {}, ru: {}, hy: {}, ar: {} };
+  for (const [path, mod] of Object.entries(modules)) {
+    const lang = path.split("/")[1]; // "./en/home.json" -> "en"
+    if (dicts[lang]) dicts[lang] = deepMerge(dicts[lang], mod.default ?? mod);
+  }
+  return dicts;
 };
+
+export const DICTIONARIES = buildDictionaries();
 
 export const LANGUAGES = [
   { code: "en", label: "English", short: "EN", dir: "ltr" },

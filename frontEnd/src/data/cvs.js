@@ -1,4 +1,4 @@
-import { pdfByName } from "../lib/media.js";
+import { pdfByName } from "../04_hlprs/media.js";
 
 /**
  * Downloadable CVs. Files live in src/portfolio/media/ (CV_tech.pdf, Cv_Bar.pdf,

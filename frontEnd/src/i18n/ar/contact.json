@@ -1,0 +1,55 @@
+{
+  "contact": {
+    "kicker": "تواصل",
+    "title": "لنتحدث.",
+    "sub": "منتج يحتاج إلى بناء، أو نظام يحتاج إلى تأمين، أو بار يحتاج إلى تحوّل — أردّ بسرعة.",
+    "emailLabel": "البريد الإلكتروني",
+    "phoneLabel": "الهاتف",
+    "linkedinLabel": "لينكد إن",
+    "locationLabel": "مقيم في",
+    "locationValue": "دبي، الإمارات",
+    "ctaEmail": "أرسل لي بريداً",
+    "ctaLinkedIn": "تواصل عبر لينكد إن",
+    "intents": {
+      "tech": "بناء",
+      "bar": "استشارة",
+      "other": "حديث"
+    },
+    "cli": {
+      "host": "vardges@dubai: ~/contact",
+      "hint": "# اكتب طلبًا — أردّ خلال 24 ساعة",
+      "intent": "intent",
+      "send": "إرسال الطلب",
+      "sending": "جارٍ الإرسال…",
+      "posting": "POST https://vardges.me/api/contact",
+      "ok": "200 OK",
+      "okBody": "{ \"status\": \"received\", \"reply_within\": \"24h\" }"
+    },
+    "simple": {
+      "heading": "راسلني.",
+      "hint": "أخبرني بما تعمل عليه — أرد خلال 24 ساعة."
+    }
+  },
+  "form": {
+    "name": "الاسم",
+    "namePh": "اسمك",
+    "email": "البريد الإلكتروني",
+    "emailPh": "you@example.com",
+    "topic": "الموضوع",
+    "topicTech": "التقنية / التطوير",
+    "topicBar": "الضيافة / الاستشارات",
+    "topicOther": "موضوع آخر",
+    "message": "الرسالة",
+    "messagePh": "حدّثني عن مشروعك أو منشأتك أو فكرتك…",
+    "submit": "أرسل الرسالة",
+    "sending": "جارٍ الإرسال…",
+    "successTitle": "تم إرسال الرسالة!",
+    "successText": "شكراً لتواصلك — سأرد خلال 24 ساعة.",
+    "sendAnother": "إرسال رسالة أخرى",
+    "privacy": "لا رسائل مزعجة ولا قوائم بريدية — تصل الرسالة مباشرة إلى بريدي.",
+    "errName": "من فضلك أخبرني باسمك.",
+    "errEmail": "البريد الإلكتروني مطلوب.",
+    "errEmailInvalid": "هذا البريد لا يبدو صحيحاً.",
+    "errMessage": "الرسالة مطلوبة."
+  }
+}

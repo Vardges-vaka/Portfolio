@@ -5,7 +5,7 @@
  *
  * cat: "dev" | "auto" | "ai" | "foundations"
  */
-import { certByName } from "../lib/media.js";
+import { certByName } from "../04_hlprs/media.js";
 
 export const TECH_CERTS = [
   // ---- headline professional certificate ----

@@ -1,0 +1,10 @@
+export { get_techProps } from "./get_techProps.js";
+export { get_heroProps } from "./get_heroProps.js";
+export { get_aboutProps } from "./get_aboutProps.js";
+export { get_stackProps } from "./get_stackProps.js";
+export { get_skillsProps } from "./get_skillsProps.js";
+export { get_projectsProps } from "./get_projectsProps.js";
+export { get_certsProps } from "./get_certsProps.js";
+export { get_securityProps } from "./get_securityProps.js";
+export { get_labTeaserProps } from "./get_labTeaserProps.js";
+export { get_ctaProps } from "./get_ctaProps.js";

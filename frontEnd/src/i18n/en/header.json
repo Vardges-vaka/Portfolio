@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "home": "Home",
+    "tech": "Tech",
+    "bar": "Hospitality",
+    "lab": "Lab",
+    "contact": "Contact",
+    "theme": "Toggle theme",
+    "language": "Language",
+    "menu": "Menu",
+    "close": "Close"
+  }
+}
