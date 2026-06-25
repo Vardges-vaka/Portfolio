@@ -73,12 +73,14 @@
       }
     </script>
 
-    <!-- Portfolio fonts: Latin + Cyrillic (Unbounded/Manrope/Playfair/JetBrains),
-         Arabic (Cairo), Armenian (Noto Sans Armenian). Required for the design. -->
+    <!-- Latin + Cyrillic fonts (Unbounded/Manrope/Playfair/JetBrains) — always
+         needed. Arabic (Cairo) + Armenian (Noto Sans Armenian) are loaded on
+         demand only for ar/hy locales (see LanguageContext) so English/Russian
+         visitors never pay for them. -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700;800&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;600&family=Cairo:wght@400;600;700;800&family=Noto+Sans+Armenian:wght@400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700;800&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap"
       rel="stylesheet"
     />
   </head>

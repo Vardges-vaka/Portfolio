@@ -28,10 +28,24 @@ const PDFS = import.meta.glob("../00_assets/pdf/**/*.pdf", {
 
 const baseName = (path) => path.split("/").pop();
 const stem = (file) => file.replace(/\.[^.]+$/, "");
+const ext = (path) => path.slice(path.lastIndexOf(".") + 1).toLowerCase();
 
-// assetId (no extension) -> url
+// When the same asset exists in several formats (e.g. a leftover ASSET-P1.png
+// sitting next to a new ASSET-P1.jpg), prefer the lighter / more modern one so a
+// stray heavy duplicate can never win the lookup. Lower rank = preferred.
+const FORMAT_RANK = { avif: 0, webp: 1, jpg: 2, jpeg: 2, gif: 3, png: 4, svg: 5 };
+
+// assetId (no extension) -> url, keeping the best-ranked format per id
 const imageById = {};
-for (const [path, url] of Object.entries(IMAGES)) imageById[stem(baseName(path))] = url;
+const imageRank = {};
+for (const [path, url] of Object.entries(IMAGES)) {
+  const id = stem(baseName(path));
+  const rank = FORMAT_RANK[ext(path)] ?? 9;
+  if (!(id in imageById) || rank < imageRank[id]) {
+    imageById[id] = url;
+    imageRank[id] = rank;
+  }
+}
 const videoById = {};
 for (const [path, url] of Object.entries(VIDEOS)) videoById[stem(baseName(path))] = url;
 
